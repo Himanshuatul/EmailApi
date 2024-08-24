@@ -21,7 +21,7 @@ public class controller {
 
   }
   //api to send email
-   @PostMapping("/sendmail")
+   @PostMapping("/")
     public ResponseEntity<?> SendEmail(@RequestBody EmailRequest request)
     {
 
